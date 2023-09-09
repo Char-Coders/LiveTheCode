@@ -3,8 +3,8 @@
 
 MediMate is an AI-based healthcare chatbot designed to provide personalized healthcare assistance and information to users. It leverages the power of artificial intelligence to understand user queries, provide relevant and accurate responses, and offer valuable insights into various healthcare topics.
 
-![Logo](https://github.com/Char-Coders/LiveTheCode/blob/main/frontend/public/logo_inverted_blackbg-removebg.png)
-![App Screenshot](https://github.com/Char-Coders/LiveTheCode/blob/main/frontend/public/home.jpeg)
+![Logo](https://github.com/Char-Coders/LiveTheCode/blob/master/frontend/public/logo_inverted_blackbg-removebg.png)
+![App Screenshot](https://github.com/Char-Coders/LiveTheCode/blob/master/frontend/public/home.jpeg)
 
 ## Authors
 
@@ -81,6 +81,6 @@ MediMate: "Stress management is important for maintaining good overall health. H
 
 ## Screenshots
 
-![App Screenshot](https://github.com/Char-Coders/LiveTheCode/blob/main/frontend/public/chat1.jpeg)
-![App Screenshot](https://github.com/Char-Coders/LiveTheCode/blob/main/frontend/public/chat2.jpeg)
-![App Screenshot](https://github.com/Char-Coders/LiveTheCode/blob/main/frontend/public/features.jpeg)
+![App Screenshot](https://github.com/Char-Coders/LiveTheCode/blob/master/frontend/public/chat1.jpeg)
+![App Screenshot](https://github.com/Char-Coders/LiveTheCode/blob/master/frontend/public/chat2.jpeg)
+![App Screenshot](https://github.com/Char-Coders/LiveTheCode/blob/master/frontend/public/features.jpeg)
