@@ -1,0 +1,77 @@
+body{
+    background: #fff;
+}
+#uses {
+  overflow: hidden;
+  width: 100vw;
+  max-width: 65rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 2rem auto;
+}
+.useTitle {
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 3rem;
+  margin-bottom: 1.5rem;
+  color: var(--black);
+}
+.useTitle::after{
+    content: "";
+    position: absolute;
+    width: 28%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #0188DF;
+}
+.useDecs {
+  font-weight: 400;
+  font-size: 1rem;
+  max-width: 51rem;
+  padding: 0 2rem;
+}
+.useBars {
+  margin: 1.5rem;
+  width: 100vw;
+  max-width: 80%;
+  text-align: left;
+}
+.useBar {
+  display: flex;
+  margin: 1rem;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  background: var(--blue);
+}
+.useBarText > h2 {
+  font-size: 2.3rem;
+  font-weight: 600;
+  color: var(--black);
+}
+.useBarText > p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
+}
+@media screen and (max-width: 720px) {
+  .useBarText > p {
+    font-size: 2vw;
+  }
+  .useTitle::after{
+    display: none;
+
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .useBarText > p {
+    font-size: 3vw;
+  }
+  .useBarText > h2 {
+    font-size: 5vw;
+  }
+}

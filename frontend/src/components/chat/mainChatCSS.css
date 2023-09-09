@@ -1,0 +1,137 @@
+:root {
+    --headerHeight: 4rem
+}
+
+input:focus {
+    outline: none;
+}
+
+.mainChatContainer {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    flex-grow: 1;
+}
+
+.chatSelectPaneContainer, .chatPaneContainer {
+    background-color: white;
+    height: inherit;
+    position: relative;
+}
+
+.chatSelectPaneContainer {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.chatPaneContainer {
+    background-color: whitesmoke;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.introTextContainer {
+    text-align: center;
+    height: fit-content;
+    margin: auto;
+}
+
+.introTextContainer span {
+    color: #0188df;
+}
+
+.InputBoxContainer {
+    position: relative;
+    width: inherit;
+    padding: 1rem 0;
+    margin: 0 1rem;
+
+}
+
+.InputBox {
+    margin: 0;
+    font-size: 1rem;
+}
+.InputBox::placeholder {
+    color: grey;
+}
+
+.InputForm {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    border-radius: 8px;align-items: center;
+}
+
+.MessagesContainer {
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    overflow-y: scroll;
+
+}
+
+#Messageanchor {
+    overflow-anchor: auto;
+    height: 1px;
+}
+
+.MessageBoxContainer {
+    overflow-anchor: none;
+    min-width: 5rem;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: left/right; */
+
+
+}
+
+.MessageBodyContainer {
+    max-width: 60%;
+    width: fit-content;
+    background-color: #0188DF;
+    height: fit-content;
+    word-wrap: break-word;
+    padding: 10px;
+    border-radius: 8px;
+    color: whitesmoke;
+    font-size: 1rem;
+    white-space: pre-wrap;
+
+}
+
+.ProfileContainer {
+    border-radius: 100%;
+    width: 50px;
+    height: 47px;
+    background-color: #0188DF;
+    /* margin-right: 5px; */
+}
+
+.header {
+    width: 100vw;
+    height: var(--headerHeight);
+    background-color: brown;
+    display: flex;
+    align-items: center;
+}
+
+/* media query */
+
+@media only screen and (max-width: 600px) {
+    .chatSelectPaneContainer {
+        display: none;
+    }
+
+    .header_head {
+        height: auto;
+        width: 250px;
+    }
+}

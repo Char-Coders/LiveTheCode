@@ -1,0 +1,28 @@
+:root{
+    --blue: #0188DF;
+    --black: #354046;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none !important;
+    text-decoration: none !important;
+    /*text-transform: capitalize;*/
+    /* font-weight: 400; */
+    transition: all .2s linear;
+}
+*::selection{
+    background: #354046;
+    color: #fff;
+}
+html{
+    overflow-x: hidden;
+}
+section{
+    overflow: hidden;
+}
+body{
+    overflow-x: hidden;
+}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap');
+
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+.contact {
+    background-color: #eee;
+    color: #000;
+    padding: 40px 0;
+  }
+  
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .contact-left h3,
+  .contact-right h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-left p,
+  .contact-right li {
+    margin-bottom: 5px;
+  }
+  
+  .social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .social-links li {
+    margin-right: 10px;
+  }
+  
+  .social-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .social-links a {
+    color: #000;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    opacity: 0.8;
+  }
+  
+  .contact-bottom {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .contact-bottom p {
+    font-size: 0.9rem;
+  }
+
+@media screen and (max-width: 768px) {
+  .contact-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-left,
+  .contact-right {
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .social-links li{
+    padding: 1rem 1rem;
+    align-items: center;
+  }
+}
+
+
+
+
+
